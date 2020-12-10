@@ -1,0 +1,13 @@
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\bin\Debug\netcoreapp3.1\MyBinTree.exe
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\bin\Debug\netcoreapp3.1\MyBinTree.deps.json
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\bin\Debug\netcoreapp3.1\MyBinTree.runtimeconfig.json
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\bin\Debug\netcoreapp3.1\MyBinTree.runtimeconfig.dev.json
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\bin\Debug\netcoreapp3.1\MyBinTree.dll
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\bin\Debug\netcoreapp3.1\MyBinTree.pdb
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.csprojAssemblyReference.cache
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.AssemblyInfoInputs.cache
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.AssemblyInfo.cs
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.csproj.CoreCompileInputs.cache
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.dll
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.pdb
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.genruntimeconfig.cache
