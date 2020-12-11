@@ -3,6 +3,7 @@ using System;
 using MyBinTree;
 using System.Collections;
 using System.Collections.Generic;
+using Moq;
 
 namespace MyBinTree.Test
 {
@@ -216,32 +217,34 @@ namespace MyBinTree.Test
         }
 
         [TestMethod]
-        public void SerializeAndFile()
+        public void FileFromDict()
         {
             var ser = new Serializer();
-            var fm = new FileManager();
-            var dict1 = new BinTreeDict<int, int>()
+            var mock = new Mock<IFileManager>();
+            var dict = new BinTreeDict<int, int>()
             {
                 {-100,100},
                 {0,0},
                 {100,-100}
             };
 
-            var serDict = ser.DataFromDict(dict1, ';');
+            mock.Setup(x => x.FileFromData(It.IsAny<string>(), It.IsAny<string>()));
+            dict.LoadToFile(ser, mock.Object, "Test", ';');
+            mock.Verify(x => x.FileFromData(It.IsAny<string>(), $"-100:{dict[-100]};0:{dict[0]};100:{dict[100]}"));
+            mock.VerifyAll();
+        }
 
-            Assert.AreEqual("-100:100;0:0;100:-100", serDict);
-
-            fm.FileFromData("Test.txt", serDict);
-
-            var dataFromFile = fm.DataFromFile("Test.txt");
-
-            Assert.AreEqual("-100:100;0:0;100:-100", dataFromFile);
-
-            var dict2 = new BinTreeDict<int, int>();
-            ser.DictFromData(dict2, dataFromFile, ';');
-
-            Assert.AreEqual(dict1.Keys.ToString(), dict2.Keys.ToString());
-            Assert.AreEqual(dict1.Values.ToString(), dict2.Values.ToString());
+        [TestMethod]
+        public void DictFromFile()
+        {
+            var dict = new BinTreeDict<int, int>();
+            var ser = new Serializer();
+            var mock = new Mock<IFileManager>();
+            mock.Setup(x => x.DataFromFile(It.IsAny<string>())).Returns("-100:100;0:0;100:-100");
+            var separator = ';';
+            dict.ReadFromFile(ser, mock.Object, "Test", separator);
+            Assert.AreEqual(-100, dict[100]);
+            Assert.AreEqual(0, dict[0]);
         }
 
         [TestMethod]
@@ -271,6 +274,21 @@ namespace MyBinTree.Test
             Assert.AreEqual(2, dict.Count);
             Assert.AreEqual(keys.ToString(), dict.Keys.ToString());
             Assert.AreEqual(values.ToString(), dict.Values.ToString());
+        }
+
+        [TestMethod]
+        public void RemoveSingleValue()
+        {
+            var dict = new BinTreeDict<int, int>()
+            {
+                {-100,100},                
+            };
+            
+
+            dict.Remove(-100);
+
+            Assert.AreEqual(0, dict.Count);
+            
         }
 
         [TestMethod]

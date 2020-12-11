@@ -23,7 +23,7 @@ namespace MyBinTree
             {
                 var node = SearchKey(Root, key);
                 if (node != null)
-                    throw new KeyNotFoundException();
+                    throw new KeyAlreadyExistsException();
                 this.Add(key, value);
             }
         }
@@ -115,6 +115,11 @@ namespace MyBinTree
             {
                 return false;
             }
+            if (node.Equals(Root))
+            {
+                Root = null;
+                return true;
+            }    
             if (node.LeftNode == null && node.RightNode == null)
             {
                 MakeNewParentForChildOfDeleted(node.ParentNode, node, null);
@@ -226,6 +231,18 @@ namespace MyBinTree
             public Node LeftNode { get; set; }
             public Node RightNode { get; set; }
             public Node ParentNode { get; set; }
+        }
+
+        public void ReadFromFile(ISerializer serializer, IFileManager filemanager, string filename, char separator)
+        {
+            var data = filemanager.DataFromFile(filename);
+            serializer.DictFromData(this, data, separator);
+        }
+
+        public void LoadToFile(ISerializer serializer, IFileManager filemanager, string filename, char separator)
+        {
+            var data = serializer.DataFromDict(this, separator);
+            filemanager.FileFromData(filename, data);
         }
 
     }    

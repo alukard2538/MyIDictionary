@@ -5,7 +5,7 @@ using System.IO;
 
 namespace MyBinTree
 {
-    public class FileManager
+    public class FileManager : IFileManager
     {
         public void FileFromData(string filename, string dataFromDict)
         {

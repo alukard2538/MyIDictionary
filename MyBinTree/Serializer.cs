@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyBinTree
 {
-    public class Serializer
+    public class Serializer : ISerializer
     {
         public string DataFromDict<TKey, TValue>(IDictionary<TKey, TValue> dictionary, char sep)
         {

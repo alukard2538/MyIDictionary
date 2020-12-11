@@ -11,3 +11,6 @@ C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\За
 C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.dll
 C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.pdb
 C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.genruntimeconfig.cache
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree\obj\Debug\netcoreapp3.1\MyBinTree.csproj.CopyComplete

@@ -96,3 +96,5 @@ C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\За
 C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree.Test\obj\Debug\netcoreapp3.1\MyBinTree.Test.dll
 C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree.Test\obj\Debug\netcoreapp3.1\MyBinTree.Test.pdb
 C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree.Test\obj\Debug\netcoreapp3.1\MyBinTree.Test.genruntimeconfig.cache
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree.Test\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\annaq\YandexDisk\Магистр ЧелГУ\1 семестр\ООП\Задача 3. Бинарное дерево поиска\MyBinTree.Test\bin\Debug\netcoreapp3.1\Moq.dll
